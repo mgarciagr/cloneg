@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: roboto;
+  background-color: rgb(6, 114, 60);
+}
+
+header {
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.papa-sec {
+  width: 1200px;
+  height: 50px;
+  display: flex;
+}
+
+.referencias {
+  width: 50%;
+}
+
+.imagenes {
+  width: 50%;
+}
+
+.logogo {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: last baseline;
+  justify-content: center;
+}
+
+.buscador {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
